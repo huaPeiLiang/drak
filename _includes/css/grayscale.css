@@ -23,7 +23,7 @@ h3,
 h4,
 h5,
 h6 {
-    margin: 0 0 35px;
+    margin: 0 0 30px;
     text-transform: uppercase;
     font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
     font-weight: 700;
@@ -132,6 +132,21 @@ a:focus {
 }
 
 .intro {
+    display: table;
+    width: 100%;
+    height: auto;
+    padding: 100px 0;
+    text-align: center;
+    color: #fff;
+    background: url(https://huapeiliang.github.io/drak/img/intro-bg.jpg) no-repeat bottom center scroll;
+    background-color: {{ site.color.primary-dark }};
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover;
+}
+
+.color-context-one {
     display: table;
     width: 100%;
     height: auto;
@@ -276,7 +291,7 @@ a:focus {
     }
 
     .download-section {
-        padding: 100px 0;
+        padding: 60px 0;
     }
 
     #map {
